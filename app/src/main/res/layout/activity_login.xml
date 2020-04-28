@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/username"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:hint="Password"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="#673AB7"
+        android:id="@+id/signin"
+        android:gravity="center"
+        android:onClick="signButton"
+        android:text="sign in"
+        android:textColor="#E9EAEF"
+        android:textSize="30sp"></Button>
+
+
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

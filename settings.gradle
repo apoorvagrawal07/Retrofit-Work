@@ -1,0 +1,2 @@
+rootProject.name='TheReqresApiCall'
+include ':app'
